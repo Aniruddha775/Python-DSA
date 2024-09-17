@@ -15,4 +15,5 @@ class Solution:
         return result[::-1]
     
 n=Solution()
-print(n.sortedSquares([-4,-1,0,3,10]))  
+arr=[-4,-1,0,3,10]
+print(n.sortedSquares(arr))  
