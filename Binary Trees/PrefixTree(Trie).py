@@ -10,7 +10,7 @@ class Trie:
                 d[c] = {} #Creating new dict for each character
             d = d[c] #Nesting the character in the dict
 
-        d['.'] = '.'
+        d['.'] = '.' #Ending each word with '.'
 
     def search(self, word: str) -> bool:
         d = self.trie
