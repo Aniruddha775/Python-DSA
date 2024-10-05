@@ -3,7 +3,7 @@ class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         count={}
         n=len(nums)
-        buckets=[0]*(n+1)
+        buckets=[0]*(n+1) # we are taking n+1 as a number can have freq 0
         for c in nums:
             if c in count:
                 count[c]+=1
