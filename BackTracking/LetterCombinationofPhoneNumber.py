@@ -19,7 +19,7 @@ class Solution:
         
         n = len(digits)
 
-        def backtrack(i=0):
+        def backtrack(i):
             if i == n:
                 ans.append("".join(sol))
                 return
